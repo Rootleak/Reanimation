@@ -197,13 +197,13 @@ if real_character then
 end
 ```
 
-## Example
+## Full Example
 
 ### For Supported Games (Mic Up, Spray Paint, Ragdoll Engine)
 
 ```lua
 -- Load the API
-local api = loadstring(game:HttpGet("https://raw.githubusercontent.com/rootleak/Reanimation/module.lua"))()
+local api = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rootleak/Reanimation/refs/heads/main/module.lua"))()
 
 -- Enable reanimation (automatically detects game and uses correct remote)
 api.reanimate(true)
@@ -224,7 +224,7 @@ api.reanimate(false)
 
 ```lua
 -- Load the API
-local api = loadstring(game:HttpGet("https://raw.githubusercontent.com/rootleak/Reanimation/module.lua"))()
+local api = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rootleak/Reanimation/refs/heads/main/module.lua"))()
 
 -- Find the ragdoll remote for your specific game (use a remote spy/explorer)
 -- Example paths you might find:
