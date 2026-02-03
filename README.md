@@ -20,6 +20,9 @@ This module allows the use of custom keyframe animations that are **VISIBLE TO A
 
 ---
 
+### v1.0.0
+- Initial release of Stalkie Reanimation Module.
+
 ## Supported Games
 
 The module automatically detects and configures ragdoll remotes for the following games:
